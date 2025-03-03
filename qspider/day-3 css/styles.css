@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: rebeccapurple;
+    background-color: yellow;
+    justify-self: center;
+    border-radius: 10px;
+}
+h3{
+    justify-self: center;
+    background-color: yellow;
+    color: brown;
+    border-radius: 10px;
+}
+*{
+    background-color: coral;
+}
+#p{
+    background-color: blue;
+}
+.para{
+    background-color: darkgoldenrod;
+}
+
+div p {
+    color: blue;
+}
+
+div > p {
+    color: green;
+}

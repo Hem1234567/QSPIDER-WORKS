@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <center>
+    <fieldset style="height: max-content; width: max-content; border-radius: 10px; background-color: aquamarine; "  >
+        <legend><b>job application form</b></legend>
+   <form>
+    <table><tr>
+        <td>First name :</td><td><input type="num" placeholder="enter first name" style="border-radius: 10px; padding: 4px;" required></td>
+    </tr>
+    <tr>
+        <td>Last name :</td><td><input type="num" placeholder="enter last name" style="border-radius: 10px; padding: 4px;" required></td>
+    </tr> 
+    <tr>
+        <td>age</td><td><input type="num" placeholder="enter your age" style="border-radius: 10px; padding: 4px;" required></td>
+    </tr>
+    <tr>
+        <td>gender :</td>
+        <td>
+            <input type="radio" name="gender" required>male
+            <input type="radio" name="gender" required>female
+        </td>
+    </tr>
+    <tr>
+        <td>Email :</td>
+        <td>
+            <input type="email" placeholder="enter your email" style="border-radius: 10px; padding: 4px;" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Password :</td>
+        <td>
+            <input type="password" placeholder="enter your password" style="border-radius: 10px; padding: 4px;" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Date :</td>
+        <td>
+            <input type="date" style="border-radius: 10px; padding: 4px;" required>
+        </td>
+    </tr>
+    <tr>
+        <td>contact :</td>
+        <td>
+            <input type="tel" placeholder="enter contact no" style="border-radius: 10px; padding: 4px;" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>upload your photo: </td>
+        <td>
+           <input type="file" required>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>address :</td>
+        <td>
+            <textarea cols="50" placeholder="enter your address" style="border-radius: 10px; padding: 4px;" required></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>select state :</td>
+        <td>
+            <select required style="border-radius: 10px; padding: 4px;">
+                <option selected disabled >select an option :</option>
+                <option>tamilnadu</option>
+                <option>kerala</option>
+                <option>ap</option>
+                <option>karnataka</option>
+            </select>
+        </td>
+    </tr>
+    <datalist>
+        <input type="">
+    </datalist>
+    <tr>
+        <td>linkedin url :</td>
+        <td>
+            <input type="url" placeholder="enter linkedin url" style="border-radius: 10px; padding: 4px;" required>
+        </td>
+    </tr>
+    <tr>
+    <td><label for="position">Position applied for:</label></td>
+    <td>
+        <input list="positions" id="position" name="position" style="border-radius: 10px; padding: 4px;" placeholder="choose the position" required>
+        <datalist id="positions">
+            <option value="Full Stack Developer">
+            <option value="Data Analyst">
+            <option value="Cyber Security">
+            <option value="Designers">
+            <option value="Manager">
+        </datalist>
+    </td>
+</tr>
+
+    <tr>
+        <td ><input type="submit" style="border-radius: 10px;" required></td>
+    </tr>
+    </table>
+   </form>
+   </fieldset>
+   </center>
+</body>
+</html>
